@@ -1,4 +1,4 @@
-from game.words import Word
+from game.terminal_service import Word
 from game.player import Player
 from game.jumper import Jumper
 
