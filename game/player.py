@@ -27,7 +27,6 @@ class Player:
 
     def guessLetter(self):
         self._guessedLetter = ''
-        # use while loop to ensure that the guess in an alphanumeric character
         while not self._guessedLetter.isalpha():
             self._guessedLetter = input('Please Guess a Letter [a-z]').lower()
             print()

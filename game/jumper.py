@@ -6,6 +6,7 @@ class Jumper:
         _man (list): a list containing each line of the parachute man
     """
     def __init__(self):
+        #needs to be a list so it can be changed
         self._man = ['   ___   ','  /   \   ', '   ---   ','  \   /','   \ /   ','    0   ','   /|\   ','   / \    ']
 
     def show_jumper(self, lines):        
