@@ -1,7 +1,7 @@
 class Jumper:
-    """A poor soul dangling from a parachute. 
+    """.
     
-    The responsibility of the Jumper is to inform the player of its status.
+    The draw of the sticker in the screen, the jumper.
     Attributes:
         _man (list): a list containing each line of the parachute man
     """
