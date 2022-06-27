@@ -18,7 +18,7 @@ class Word :
         printWord: prints the masked word to the screen with a space between each character
     """
     def __init__(self):
-        self._availableWords = ['chris', 'banana', 'building', 'cantelope', 'daffodil', 'elephant', 'fantastic', 'giraffe']
+        self._availableWords = ['glasses', 'parachute', 'portuguese', 'family', 'catalogue', 'cat', 'simple', 'space']
         self._currentWord = ''
         self._maskedWord = '_'
 
